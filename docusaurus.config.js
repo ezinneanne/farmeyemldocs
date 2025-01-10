@@ -71,7 +71,7 @@ const config = {
             label: 'Guide',
           },
           {
-            href: 'https://github.com/ezinneanne/farmeyeml',
+            href: 'https://github.com/ezinneanne/farmeyemldocs',
             label: 'GitHub',
             position: 'right',
           },
