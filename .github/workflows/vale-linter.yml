@@ -1,4 +1,4 @@
-name: Vale Lint Checker
+name: Vale Lint
 
 # Trigger the workflow on specific events.
 on:
@@ -22,6 +22,6 @@ jobs:
     - name: Vale Lint
       uses: errata-ai/vale-action@reviewdog
       with:
-        files: . 
+        files: '**/*.md'
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
